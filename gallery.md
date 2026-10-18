@@ -1,0 +1,18 @@
+# Gallery contents — edit to add/remove/reorder
+
+aura_spatial_workspace.png
+kinetic_telemetry_hud.png
+chronicle_agent_canvas.png
+synapse_modular_daw.png
+atelier_design_tokens.png
+spatial_audio_mixer.png
+ambient_oled_clock.png
+neural_input_gesture.png
+linear_command_palette.png
+arc_spatial_browser.png
+haptic_remote_cad.png
+monolith_dsp_filter.png
+tactile_reader_display.png
+bento_streaming_metrics.png
+variable_type_specimen.png
+hardware_enclosure_detail.png

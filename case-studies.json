@@ -1,0 +1,355 @@
+[
+  {
+    "slug": "aura",
+    "project": "Aura OS",
+    "subtitle": "Designing a cross-surface spatial OS",
+    "company": "Linear & Horizon",
+    "type": "Spatial & Cross-Device OS",
+    "year": 2026,
+    "order": 1,
+    "accent": "#6366F1",
+    "img": "images/work/aura-cover.png",
+    "sections": [
+      {
+        "type": "hero",
+        "src": "images/work/aura-cover.png",
+        "alt": "Aura OS \u2014 Hero Overview",
+        "width": 1600,
+        "height": 1000
+      },
+      {
+        "type": "intro",
+        "summary": "Aura OS was conceived as a unified spatial interaction layer spanning ambient displays, neural-interface wristbands, glass tablets, and desktop workstations. The core design mandate was eliminating context switching by making software surfaces physically responsive to human gaze, focal proximity, and zero-latency micro-gestures.",
+        "role": "As Principal Product Designer, I led the interaction architecture, spatial layout grammar, and multi-device continuity paradigms. Working alongside graphics engineers and perception researchers, I established the design token pipelines and ergonomic benchmarks across six physical form factors.",
+        "team": [
+          "Kai Vance (Interaction Lead)",
+          "Elena Rostova (Perception Research)",
+          "Marcus Lindqvist (Graphics Eng)",
+          "Aria Chen (Systems Architect)"
+        ],
+        "deliverables": [
+          "Spatial window grammar",
+          "Gaze-assisted micro-gesture controls",
+          "Cross-surface clipboard & state continuity protocol",
+          "120 FPS glass rendering specification"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Spatial Continuity Without Spatial Clutter"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>Most spatial operating systems burden users with artificial 3D skeumorphism\u2014floating windows in physical rooms that drift, collide, and cause ergonomic fatigue.</p><p>With Aura OS, our foundational principle was <em>planar restraint</em>: interfaces remain strictly 2D for high-density reading and execution, but acquire spatial depth only when establishing hierarchy or handing off focus across companion hardware.</p><ul class=\"cs-list\"><li><strong>Shared Spatial Logic:</strong> Unified coordinate indexing across desktop displays and optical headsets.</li><li><strong>Gaze-Targeted Micro-Gestures:</strong> Low-torque thumb taps require less than 1.2 calories per hour, eliminating gorilla-arm fatigue.</li><li><strong>Zero-Latency Surface Handoff:</strong> Pinching an active buffer from desktop sends it immediately to tablet or windshield HUD.</li></ul>"
+      },
+      {
+        "type": "image",
+        "src": "images/work/aura-01.png",
+        "alt": "Aura OS Multi-Window Continuity",
+        "caption": "Multi-window spatial grammar with adaptive depth layers and focus isolation",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Gaze + Micro-Gesture Pipeline"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>Traditional ray-casting in spatial computing feels imprecise and physically exhausting. In Aura OS, we decoupled selection from confirmation: the eye identifies intent, while a sub-millimeter thumb tap confirms action.</p><p>We calibrated optical target tolerance fields with non-linear bezier falloffs, enabling 99.4% intent accuracy even during rapid eye saccades and high-vibration mobile transit.</p>"
+      },
+      {
+        "type": "image-grid",
+        "items": [
+          {
+            "src": "images/work/aura-02.png",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "src": "images/work/aura-03.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Impact and Validation"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>In third-party usability trials across 300 experienced engineers and designers, Aura OS demonstrated a <strong>47% reduction in task completion times</strong> compared to standard multi-monitor workflows, and an <strong>82% reduction in reported neck fatigue</strong> over eight-hour work blocks.</p><p>Aura OS was recognized as an Apple Design Award Finalist in 2025 for breakthrough ergonomic craft.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "kinetic",
+    "project": "Kinetic HMI",
+    "subtitle": "Automotive telemetry and in-cabin OS",
+    "company": "Porsche & Monolith",
+    "type": "Automotive HMI & HUD",
+    "year": 2024,
+    "order": 2,
+    "accent": "#06B6D4",
+    "img": "images/work/kinetic-cover.png",
+    "sections": [
+      {
+        "type": "hero",
+        "src": "images/work/kinetic-cover.png",
+        "alt": "Kinetic HMI \u2014 Automotive Telemetry",
+        "width": 1600,
+        "height": 1000
+      },
+      {
+        "type": "intro",
+        "summary": "Modern vehicles overwhelm drivers with bloated tablet-style touchscreens that demand visual distraction. Kinetic HMI was designed from the ground up for track-level performance and autonomous cruising: an interface optimized for sub-200ms glanceability, spatial audio feedback, and physical steering encoder integration.",
+        "role": "As Design Lead, I spearheaded the digital instrument cluster, the heads-up display projection geometry, and the transition states between manual driving mode and Level 4 autonomous highway cruising.",
+        "team": [
+          "Kai Vance (Design Lead)",
+          "Klaus Schneider (Vehicle Dynamics)",
+          "Sora Tanaka (Haptics Engineer)"
+        ],
+        "deliverables": [
+          "Glanceable instrument cluster",
+          "Windshield HUD projection graphics",
+          "Steering wheel tactile rotary mapping",
+          "High-contrast night racing palette"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Glanceability as a Safety Standard"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>At 200 km/h, looking away from the tarmac for one second means traveling 55 meters blind. Every visual element in Kinetic HMI was designed to be understood in less than 150 milliseconds via peripheral cognition.</p><p>We discarded decorative skeuomorphic gauges in favor of high-legibility typographic vectors and dynamic focal rings that pulse during critical telemetry thresholds.</p>"
+      },
+      {
+        "type": "image",
+        "src": "images/work/kinetic-01.png",
+        "alt": "Kinetic HUD Night Mode",
+        "caption": "High-contrast HUD reticle designed for instant legibility in night conditions",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Smooth Transition to Autonomous Cruising"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>When the driver engages autonomous highway pilot, the steering wheel gently recesses by 40mm and the instrument cluster expands into an ambient route companion showing predictive sensor lanes, weather vectors, and spatial audio soundstage control.</p>"
+      },
+      {
+        "type": "image-grid",
+        "items": [
+          {
+            "src": "images/work/kinetic-02.png",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "src": "images/work/kinetic-03.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chronicle",
+    "project": "Chronicle AI",
+    "subtitle": "Agentic knowledge canvas & synthesis",
+    "company": "Chronicle AI",
+    "type": "Agentic AI Canvas",
+    "year": 2023,
+    "order": 3,
+    "accent": "#EC4899",
+    "img": "images/work/chronicle-cover.png",
+    "sections": [
+      {
+        "type": "hero",
+        "src": "images/work/chronicle-cover.png",
+        "alt": "Chronicle AI \u2014 Infinite Knowledge Canvas",
+        "width": 1600,
+        "height": 1000
+      },
+      {
+        "type": "intro",
+        "summary": "Chatbots trap intelligence in narrow vertical message streams. Chronicle AI reinvented how teams interact with foundation models by providing an infinite spatial canvas where documents, code repositories, and agentic reasoning threads live as connected visual nodes.",
+        "role": "As Head of Design & Systems, I led the product vision, canvas rendering engine design, and multi-agent coordination UX, scaling the product from early prototype to 250,000 monthly active builders.",
+        "team": [
+          "Kai Vance (Head of Design)",
+          "Devon Ross (CEO)",
+          "Maya Patel (ML Architect)",
+          "Timo Vane (Staff Frontend)"
+        ],
+        "deliverables": [
+          "Infinite canvas node graph grammar",
+          "Live streaming thought threads",
+          "Keyboard-first command engine",
+          "Multiplayer canvas synchronization"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Breaking Out of the Chatbox"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>Linear chat interfaces force humans to scroll backwards through thousands of words to retrieve previous context. Chronicle AI treats reasoning as a 2D spatial workspace: users can branch hypotheses, run comparative simulations side by side, and pin immutable data artifacts into persistent workspaces.</p>"
+      },
+      {
+        "type": "image-grid",
+        "items": [
+          {
+            "src": "images/work/chronicle-01.png",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "src": "images/work/chronicle-02.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "synapse",
+    "project": "Synapse Modular",
+    "subtitle": "Tactile hardware-software DAW",
+    "company": "Teenage Engineering",
+    "type": "Hardware & Software Pro DAW",
+    "year": 2022,
+    "order": 4,
+    "accent": "#F59E0B",
+    "img": "images/work/synapse-cover.png",
+    "sections": [
+      {
+        "type": "hero",
+        "src": "images/work/synapse-cover.png",
+        "alt": "Synapse Modular \u2014 Hardware & Digital Audio Workstation",
+        "width": 1600,
+        "height": 1000
+      },
+      {
+        "type": "intro",
+        "summary": "Synapse Modular merged tactile machined aluminum hardware with an ultra-low latency WebGPU vector audio synthesis engine. By synchronizing 360\u00b0 optical detent dials directly with 120 FPS monochrome OLED vector graphics, musicians achieve instantaneous instrument muscle memory without touching a mouse.",
+        "role": "Design Lead across industrial interaction mapping, OLED graphic libraries, and the digital patch bay workspace.",
+        "team": [
+          "Kai Vance (Design Lead)",
+          "Jesper Kouthoofd (Creative Direction)",
+          "Anders Lind (DSP Engineering)"
+        ],
+        "deliverables": [
+          "Optical encoder mapping kinematics",
+          "Monochrome 120 FPS vector UI engine",
+          "Modular patch cable interaction physics",
+          "Machined aluminum chassis ergonomics"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Hardware Kinematics and Zero-Latency Feedback"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>Musicians rely on micro-timing. When moving a physical filter knob, any visual latency greater than 8ms degrades the organic connection with the instrument. Synapse Modular utilizes dedicated hardware interrupts mapped straight to GPU vertex shaders, creating an unbreakable illusion of physical acoustic resonance.</p>"
+      },
+      {
+        "type": "image-grid",
+        "items": [
+          {
+            "src": "images/work/synapse-01.png",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "src": "images/work/synapse-02.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "atelier",
+    "project": "Atelier System",
+    "subtitle": "High-precision token architecture",
+    "company": "Stripe",
+    "type": "Design System & Architecture",
+    "year": 2021,
+    "order": 5,
+    "accent": "#10B981",
+    "img": "images/work/atelier-cover.png",
+    "sections": [
+      {
+        "type": "hero",
+        "src": "images/work/atelier-cover.png",
+        "alt": "Atelier Design System \u2014 Architecture",
+        "width": 1600,
+        "height": 1000
+      },
+      {
+        "type": "intro",
+        "summary": "Atelier was engineered to support millions of financial transactions across thousands of global web, iOS, and Android applications. Rather than a static component library, Atelier was architected as an executable design token compiler linking Figma variables directly to WebAssembly-based CSS engines.",
+        "role": "Staff Product Designer leading token architecture, high-density financial data table standards, and WCAG AAA accessibility compliance across dark and light modes.",
+        "team": [
+          "Kai Vance (Staff Designer)",
+          "Rachel Green (Design Systems Director)",
+          "Vikram Seth (Core Web Platforms)"
+        ],
+        "deliverables": [
+          "Multi-tier token compiler pipeline",
+          "Financial data density guidelines",
+          "Sub-millisecond theme transition engine",
+          "Accessible contrast mathematical model"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tokens as Executable Code"
+      },
+      {
+        "type": "text",
+        "html": true,
+        "text": "<p>Atelier eliminated the dreaded Figma drift by treating design tokens as compiled software artifacts. When a designer refines a corner radius, motion easing curve, or semantic color stop in Figma, automated CI/CD pipelines compile, test, and release immutable packages to React, SwiftUI, and Jetpack Compose within seconds.</p>"
+      },
+      {
+        "type": "image-grid",
+        "items": [
+          {
+            "src": "images/work/atelier-01.png",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "src": "images/work/atelier-02.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "kai-vance-portfolio-template",
+  "version": "2.0.0",
+  "description": "Multi-Era OS & Spatial Product Designer Portfolio Template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "template",
+    "product-designer",
+    "macos",
+    "threejs",
+    "webgl",
+    "interactive-desktop",
+    "design-system",
+    "case-studies"
+  ],
+  "author": "Kai Vance",
+  "license": "MIT"
+}

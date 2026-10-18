@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kai Vance — Redirecting...</title>
+  <script>
+    (function() {
+      // Handles SPA routing on GitHub Pages (subfolders and root domains)
+      var pathSegmentsToKeep = 0; // set to 1 if hosted on username.github.io/repo-name/
+      var l = window.location;
+      var path = l.pathname;
+      var segments = path.split('/').filter(Boolean);
+      // If hosted on GitHub project page, segments[0] is the repo name
+      var isProjectPage = l.hostname.endsWith('github.io') && segments.length > 0;
+      var keep = isProjectPage ? 1 : 0;
+      var repoPrefix = keep ? '/' + segments[0] : '';
+      var route = segments.slice(keep).join('/');
+      
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        repoPrefix + '/?p=' + encodeURIComponent(route) +
+        (l.search ? '&' + l.search.slice(1) : '') +
+        l.hash
+      );
+    })();
+  </script>
+</head>
+<body style="background:#0a0a0c;color:#fff;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;">
+  <p>Loading application...</p>
+</body>
+</html>
