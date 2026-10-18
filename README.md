@@ -17,15 +17,6 @@
 
 ---
 
-<p align="center">
-  <a href="#-quick-preview">👁️ Quick Preview</a> •
-  <a href="#-the-5-eras">⏳ The 5 Eras</a> •
-  <a href="#-core-architecture--windows">🪟 8 Desktop Windows</a> •
-  <a href="#-customization-guide">🎨 Customization Guide</a> •
-  <a href="#-publishing-to-github-drag--drop">🚀 GitHub Upload Guide</a> •
-  <a href="#-license">📜 License</a>
-</p>
-
 </div>
 
 ---
