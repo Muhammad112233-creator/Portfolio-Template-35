@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Animated Rainbow Gradient -->
+    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3b30">
+        <animate attributeName="stop-color" values="#ff3b30;#ff9500;#ffcc00;#34c759;#007aff;#5856d6;#af52de;#ff2d55;#ff3b30" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" stop-color="#ff9500">
+        <animate attributeName="stop-color" values="#ff9500;#ffcc00;#34c759;#007aff;#5856d6;#af52de;#ff2d55;#ff3b30;#ff9500" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#34c759">
+        <animate attributeName="stop-color" values="#34c759;#007aff;#5856d6;#af52de;#ff2d55;#ff3b30;#ff9500;#ffcc00;#34c759" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#007aff">
+        <animate attributeName="stop-color" values="#007aff;#5856d6;#af52de;#ff2d55;#ff3b30;#ff9500;#ffcc00;#34c759;#007aff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#af52de">
+        <animate attributeName="stop-color" values="#af52de;#ff2d55;#ff3b30;#ff9500;#ffcc00;#34c759;#007aff;#5856d6;#af52de" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Subtle mesh background glow -->
+    <radialGradient id="meshGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1e1e2d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="1"/>
+    </radialGradient>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+      <circle cx="40" cy="40" r="1" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#meshGlow)"/>
+  <rect width="100%" height="100%" fill="url(#gridPattern)"/>
+
+  <!-- Outer frame border with glowing gradient -->
+  <rect x="20" y="20" width="1160" height="320" rx="16" fill="none" stroke="url(#rainbowGrad)" stroke-width="2" opacity="0.85"/>
+
+  <!-- Window chrome dots -->
+  <circle cx="55" cy="55" r="7" fill="#ff5f56"/>
+  <circle cx="75" cy="55" r="7" fill="#ffbd2e"/>
+  <circle cx="95" cy="55" r="7" fill="#27c93f"/>
+  <text x="125" y="60" fill="#8892b0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="1">OS_PORTFOLIO_SYSTEM // MULTI-ERA ENGINE</text>
+
+  <!-- Big Rainbow Animated Main Title -->
+  <text x="600" y="170" fill="url(#rainbowGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="900" text-anchor="middle" letter-spacing="6">
+    MULTI-ERA OS PORTFOLIO
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="225" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="500" text-anchor="middle" letter-spacing="2">
+    1992 DOS • 1998 CLASSIC • 2007 FRUTIGER AERO • 2026 LIQUID GLASS • 2077 CYBERPUNK
+  </text>
+
+  <!-- Badges / Indicators -->
+  <rect x="230" y="270" width="140" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="300" y="292" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="700" text-anchor="middle">THREE.JS WEBGL</text>
+
+  <rect x="390" y="270" width="130" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="455" y="292" fill="#34c759" font-family="monospace" font-size="12" font-weight="700" text-anchor="middle">WEB AUDIO API</text>
+
+  <rect x="540" y="270" width="120" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="600" y="292" fill="#f43f5e" font-family="monospace" font-size="12" font-weight="700" text-anchor="middle">SPA ROUTER</text>
+
+  <rect x="680" y="270" width="140" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="750" y="292" fill="#eab308" font-family="monospace" font-size="12" font-weight="700" text-anchor="middle">RUBBERY DOCK</text>
+
+  <rect x="840" y="270" width="130" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="905" y="292" fill="#a855f7" font-family="monospace" font-size="12" font-weight="700" text-anchor="middle">GITHUB PAGES</text>
+</svg>
